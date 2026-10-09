@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Business Dashboard — IA aplicada a la gestión comercial</title>
+  <meta name="description" content="Dashboard ejecutivo de ventas, segmentación RFM, clientes en riesgo explicables, oportunidades comerciales y asistente de IA.">
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <span class="brand-badge">✨ Simulado · Fines Académicos</span>
+        <div class="sidebar-brand">
+          <h1>📊 Smart Business</h1>
+          <p>IA aplicada a la gestión comercial explicable y supervisada.</p>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Análisis Principal</div>
+        <div class="nav-item active" data-section="resumen" onclick="switchSection('resumen')">
+          <span class="icon">📊</span>
+          <span>Resumen general</span>
+        </div>
+        <div class="nav-item" data-section="clientes" onclick="switchSection('clientes')">
+          <span class="icon">👥</span>
+          <span>Análisis de clientes</span>
+        </div>
+        <div class="nav-item" data-section="riesgo" onclick="switchSection('riesgo')">
+          <span class="icon">⚠️</span>
+          <span>Clientes en riesgo</span>
+          <span class="badge">Explicable</span>
+        </div>
+        <div class="nav-item" data-section="alertas" onclick="switchSection('alertas')">
+          <span class="icon">🔔</span>
+          <span>Alertas explicables</span>
+        </div>
+        <div class="nav-item" data-section="oportunidades" onclick="switchSection('oportunidades')">
+          <span class="icon">💡</span>
+          <span>Oportunidades</span>
+        </div>
+        <div class="nav-item" data-section="productos" onclick="switchSection('productos')">
+          <span class="icon">📦</span>
+          <span>Productos</span>
+        </div>
+
+        <div class="nav-section-title">Evaluación & IA</div>
+        <div class="nav-item" data-section="mision" onclick="switchSection('mision')">
+          <span class="icon">🎯</span>
+          <span>Misión de evaluación</span>
+        </div>
+        <div class="nav-item" data-section="asistente" onclick="switchSection('asistente')">
+          <span class="icon">🤖</span>
+          <span>Asistente de IA</span>
+        </div>
+        <div class="nav-item" data-section="evaluacion" onclick="switchSection('evaluacion')">
+          <span class="icon">📝</span>
+          <span>Evaluación</span>
+        </div>
+      </nav>
+
+      <!-- Sidebar Filters Section -->
+      <div class="sidebar-filters">
+        <div class="filter-header">
+          <h3>Filtros Dinámicos</h3>
+          <button class="btn-reset-filters" onclick="resetAllFilters()">Restablecer</button>
+        </div>
+
+        <!-- Date Range Filter -->
+        <div class="filter-group">
+          <label>Período de Análisis</label>
+          <div class="filter-date-row">
+            <input type="date" id="filter-start-date" class="filter-input" title="Fecha inicio">
+            <input type="date" id="filter-end-date" class="filter-input" title="Fecha fin">
+          </div>
+          <div style="display: flex; gap: 4px; margin-top: 6px;">
+            <button class="btn-reset-filters" style="font-size: 10.5px;" onclick="setDatePreset(90)">90d</button>
+            <button class="btn-reset-filters" style="font-size: 10.5px;" onclick="setDatePreset(180)">180d</button>
+            <button class="btn-reset-filters" style="font-size: 10.5px;" onclick="setDatePreset(365)">1 año</button>
+          </div>
+        </div>
+
+        <!-- Multi-select Filter Categories -->
+        <div class="filter-group">
+          <label>Región</label>
+          <div class="filter-chips" id="filter-regions-chips"></div>
+        </div>
+
+        <div class="filter-group">
+          <label>Canal de Venta</label>
+          <div class="filter-chips" id="filter-channels-chips"></div>
+        </div>
+
+        <div class="filter-group">
+          <label>Vendedor</label>
+          <div class="filter-chips" id="filter-sellers-chips"></div>
+        </div>
+
+        <div class="filter-group">
+          <label>Producto</label>
+          <div class="filter-chips" id="filter-prods-chips"></div>
+        </div>
+
+        <div class="filter-group">
+          <label>Cliente</label>
+          <div class="filter-chips" id="filter-clients-chips"></div>
+        </div>
+      </div>
+
+      <!-- Sidebar Footer Stats -->
+      <div class="sidebar-footer">
+        <div class="sidebar-stats-pill">
+          <span>Ventas en vista:</span>
+          <strong id="stat-sales-count" style="color: var(--accent-primary);">0</strong>
+        </div>
+        <div class="sidebar-stats-pill" style="margin-top: 6px;">
+          <span>Clientes en vista:</span>
+          <strong id="stat-clients-count" style="color: var(--accent-success);">0</strong>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Shell -->
+    <main class="main-content">
+      <!-- Top Sticky Navigation Bar -->
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="btn-mobile-toggle" id="btn-mobile-menu" aria-label="Abrir menú lateral">
+            ☰
+          </button>
+          <div class="page-title">
+            <h2 id="current-section-title">Resumen General</h2>
+            <p>Smart Business Dashboard · Datos simulados académicos</p>
+          </div>
+        </div>
+
+        <div class="topbar-right">
+          <button class="btn-pill btn-pill-secondary" onclick="exportCurrentDataCsv()" title="Exportar datos activos a CSV">
+            📥 Exportar CSV
+          </button>
+          <button class="btn-icon" id="btn-theme-toggle" onclick="toggleTheme()" title="Alternar Modo Oscuro / Claro">
+            🌙
+          </button>
+        </div>
+      </header>
+
+      <!-- Main Dynamic Content Container -->
+      <section class="content-body" id="content-area">
+        <!-- Content will be rendered dynamically by app.js -->
+      </section>
+    </main>
+  </div>
+
+  <!-- API Key Configuration Modal -->
+  <div class="modal-overlay" id="api-modal">
+    <div class="modal-window">
+      <div class="modal-header">
+        <h3>⚙️ Configurar Clave de IA en la Nube</h3>
+        <button class="btn-close-modal" onclick="closeApiModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 16px;">
+          Para habilitar consultas abiertas con IA real directamente en tu navegador, ingresa una clave gratuita de <strong>Google Gemini</strong> o <strong>Groq</strong>. Tu clave se almacena de forma segura en tu navegador (localStorage).
+        </p>
+        
+        <div class="filter-group">
+          <label for="api-provider-select">Proveedor de IA</label>
+          <select id="api-provider-select" class="filter-select">
+            <option value="gemini">Google Gemini (Gemini 1.5 Flash - Gratis)</option>
+            <option value="groq">Groq (Llama 3.3 70B - Ultra Rápido & Gratis)</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="api-key-input">Clave API (API Key)</label>
+          <input type="password" id="api-key-input" class="filter-input" placeholder="AIzaSy... o gsk_...">
+          <small style="color: var(--text-muted); font-size: 11px; display: block; margin-top: 4px;">
+            Obtén tu clave gratis en <a href="https://aistudio.google.com/" target="_blank" style="color: var(--accent-primary);">aistudio.google.com</a> o <a href="https://console.groq.com/" target="_blank" style="color: var(--accent-primary);">console.groq.com</a>.
+          </small>
+        </div>
+
+        <div class="alert-box alert-info" style="margin-top: 14px; margin-bottom: 0;">
+          <span>💡</span>
+          <div>Sin clave, el asistente seguirá funcionando normalmente en <strong>modo de reglas locales</strong> sin necesidad de internet.</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-pill btn-pill-secondary" onclick="closeApiModal()">Cancelar</button>
+        <button class="btn-pill btn-pill-primary" onclick="saveApiSettings()">Guardar Configuración</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

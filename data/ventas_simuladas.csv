@@ -1,0 +1,197 @@
+Fecha,Cliente,Producto,Categoria,Cantidad,Precio_unitario,Importe,Region,Canal,Vendedor
+2025-10-02,Cliente 012,Consultoría de Procesos,Servicios,2,333988,667976,Sur,Directo,Juan Mora
+2025-10-05,Cliente 020,Soporte Premium (anual),Servicios,1,150289,150289,Occidente,Distribuidor,Luis Pérez
+2025-10-05,Cliente 022,Licencia CRM Pro,Software,2,255655,511310,Occidente,Tienda,Diego Núñez
+2025-10-06,Cliente 020,Migración de Datos,Servicios,1,207163,207163,Occidente,Distribuidor,Luis Pérez
+2025-10-06,Cliente 021,Migración de Datos,Servicios,3,211878,635634,Sur,Directo,Diego Núñez
+2025-10-07,Cliente 026,Capacitación Comercial,Servicios,1,118240,118240,Occidente,Online,Ana Torres
+2025-10-13,Cliente 005,Plan de Fidelización,Servicios,2,76119,152238,Occidente,Directo,Sofía Vega
+2025-10-14,Cliente 023,Soporte Premium (anual),Servicios,1,129060,129060,Oriente,Tienda,Carla Ríos
+2025-10-15,Cliente 027,Licencia CRM Pro,Software,1,221179,221179,Occidente,Online,Sofía Vega
+2025-10-16,Cliente 024,Módulo de Analítica,Software,2,188608,377216,Norte,Tienda,Juan Mora
+2025-10-17,Cliente 001,Migración de Datos,Servicios,2,230095,460190,Sur,Tienda,Sofía Vega
+2025-10-17,Cliente 012,Integración ERP,Servicios,3,584835,1754505,Sur,Directo,Juan Mora
+2025-10-17,Cliente 021,Soporte Premium (anual),Servicios,2,147946,295892,Sur,Directo,Diego Núñez
+2025-10-18,Cliente 009,App Móvil para Ventas,Software,1,307887,307887,Sur,Online,Carla Ríos
+2025-10-22,Cliente 031,Consultoría de Procesos,Servicios,2,333339,666678,Oriente,Tienda,Sofía Vega
+2025-10-22,Cliente 026,Plan de Fidelización,Servicios,1,73637,73637,Occidente,Online,Ana Torres
+2025-10-25,Cliente 002,Consultoría de Procesos,Servicios,2,338016,676032,Occidente,Tienda,Sofía Vega
+2025-10-25,Cliente 023,Soporte Premium (anual),Servicios,1,136074,136074,Oriente,Tienda,Carla Ríos
+2025-10-26,Cliente 004,Integración ERP,Servicios,1,577495,577495,Centro,Online,Sofía Vega
+2025-10-27,Cliente 004,Módulo de Analítica,Software,2,171723,343446,Centro,Online,Sofía Vega
+2025-10-27,Cliente 008,Plan de Fidelización,Servicios,2,77379,154758,Occidente,Online,Sofía Vega
+2025-10-28,Cliente 031,Integración ERP,Servicios,2,597821,1195642,Oriente,Tienda,Sofía Vega
+2025-10-30,Cliente 013,Plan de Fidelización,Servicios,1,74006,74006,Norte,Online,Sofía Vega
+2025-10-31,Cliente 003,Integración ERP,Servicios,2,609941,1219882,Sur,Directo,Sofía Vega
+2025-10-31,Cliente 026,Capacitación Comercial,Servicios,1,119097,119097,Occidente,Online,Ana Torres
+2025-11-02,Cliente 030,App Móvil para Ventas,Software,1,312717,312717,Sur,Distribuidor,Carla Ríos
+2025-11-03,Cliente 020,Capacitación Comercial,Servicios,2,116357,232714,Occidente,Distribuidor,Luis Pérez
+2025-11-04,Cliente 030,App Móvil para Ventas,Software,2,313366,626732,Sur,Distribuidor,Carla Ríos
+2025-11-05,Cliente 001,Consultoría de Procesos,Servicios,2,360329,720658,Sur,Tienda,Sofía Vega
+2025-11-07,Cliente 020,Consultoría de Procesos,Servicios,2,349629,699258,Occidente,Distribuidor,Luis Pérez
+2025-11-07,Cliente 014,App Móvil para Ventas,Software,1,310883,310883,Sur,Distribuidor,Carla Ríos
+2025-11-09,Cliente 013,Reportes Automatizados,Software,1,82378,82378,Norte,Online,Sofía Vega
+2025-11-13,Cliente 012,Integración ERP,Servicios,3,554028,1662084,Sur,Directo,Juan Mora
+2025-11-15,Cliente 026,Capacitación Comercial,Servicios,1,124549,124549,Occidente,Online,Ana Torres
+2025-11-16,Cliente 020,Reportes Automatizados,Software,1,83948,83948,Occidente,Distribuidor,Luis Pérez
+2025-11-18,Cliente 025,Soporte Premium (anual),Servicios,1,147542,147542,Occidente,Online,Diego Núñez
+2025-11-19,Cliente 013,Plan de Fidelización,Servicios,1,69259,69259,Norte,Online,Sofía Vega
+2025-11-19,Cliente 031,Reportes Automatizados,Software,1,91068,91068,Oriente,Tienda,Sofía Vega
+2025-11-21,Cliente 026,Licencia CRM Pro,Software,1,256221,256221,Occidente,Online,Ana Torres
+2025-11-21,Cliente 005,Migración de Datos,Servicios,2,217889,435778,Occidente,Directo,Sofía Vega
+2025-11-22,Cliente 008,Reportes Automatizados,Software,2,84440,168880,Occidente,Online,Sofía Vega
+2025-11-22,Cliente 026,Plan de Fidelización,Servicios,1,77948,77948,Occidente,Online,Ana Torres
+2025-11-23,Cliente 020,Consultoría de Procesos,Servicios,1,331335,331335,Occidente,Distribuidor,Luis Pérez
+2025-11-24,Cliente 008,App Móvil para Ventas,Software,1,292629,292629,Occidente,Online,Sofía Vega
+2025-11-25,Cliente 021,Licencia CRM Pro,Software,3,224514,673542,Sur,Directo,Diego Núñez
+2025-11-26,Cliente 028,Licencia CRM Pro,Software,1,242807,242807,Centro,Directo,Diego Núñez
+2025-12-01,Cliente 028,Capacitación Comercial,Servicios,2,119639,239278,Centro,Directo,Diego Núñez
+2025-12-01,Cliente 025,Capacitación Comercial,Servicios,1,123292,123292,Occidente,Online,Diego Núñez
+2025-12-02,Cliente 013,Plan de Fidelización,Servicios,1,73116,73116,Norte,Online,Sofía Vega
+2025-12-02,Cliente 029,Módulo de Analítica,Software,1,150812,150812,Sur,Tienda,Juan Mora
+2025-12-03,Cliente 004,Reportes Automatizados,Software,1,92112,92112,Centro,Online,Sofía Vega
+2025-12-05,Cliente 018,Plan de Fidelización,Servicios,1,76751,76751,Norte,Directo,Diego Núñez
+2025-12-06,Cliente 017,Plan de Fidelización,Servicios,1,71629,71629,Oriente,Distribuidor,Juan Mora
+2025-12-08,Cliente 020,Capacitación Comercial,Servicios,1,114374,114374,Occidente,Distribuidor,Luis Pérez
+2025-12-09,Cliente 017,Reportes Automatizados,Software,2,88153,176306,Oriente,Distribuidor,Juan Mora
+2025-12-10,Cliente 002,Migración de Datos,Servicios,1,225053,225053,Occidente,Tienda,Sofía Vega
+2025-12-10,Cliente 022,Plan de Fidelización,Servicios,1,78375,78375,Occidente,Tienda,Diego Núñez
+2025-12-11,Cliente 021,Consultoría de Procesos,Servicios,2,337383,674766,Sur,Directo,Diego Núñez
+2025-12-11,Cliente 015,Reportes Automatizados,Software,1,86744,86744,Centro,Tienda,Ana Torres
+2025-12-14,Cliente 010,Plan de Fidelización,Servicios,1,71305,71305,Oriente,Distribuidor,Sofía Vega
+2025-12-15,Cliente 029,Integración ERP,Servicios,2,541242,1082484,Sur,Tienda,Juan Mora
+2025-12-15,Cliente 019,Módulo de Analítica,Software,2,180396,360792,Norte,Tienda,Diego Núñez
+2025-12-20,Cliente 030,Integración ERP,Servicios,2,603760,1207520,Sur,Distribuidor,Carla Ríos
+2025-12-20,Cliente 018,Capacitación Comercial,Servicios,2,120204,240408,Norte,Directo,Diego Núñez
+2025-12-22,Cliente 012,Consultoría de Procesos,Servicios,2,320781,641562,Sur,Directo,Juan Mora
+2025-12-22,Cliente 027,Capacitación Comercial,Servicios,3,111402,334206,Occidente,Online,Sofía Vega
+2025-12-23,Cliente 001,Consultoría de Procesos,Servicios,1,354066,354066,Sur,Tienda,Sofía Vega
+2025-12-25,Cliente 023,Consultoría de Procesos,Servicios,1,295381,295381,Oriente,Tienda,Carla Ríos
+2025-12-26,Cliente 028,Licencia CRM Pro,Software,2,238987,477974,Centro,Directo,Diego Núñez
+2025-12-26,Cliente 020,Consultoría de Procesos,Servicios,1,347147,347147,Occidente,Distribuidor,Luis Pérez
+2026-01-01,Cliente 014,App Móvil para Ventas,Software,1,308417,308417,Sur,Distribuidor,Carla Ríos
+2026-01-04,Cliente 029,Soporte Premium (anual),Servicios,3,124747,374241,Sur,Tienda,Juan Mora
+2026-01-06,Cliente 017,Soporte Premium (anual),Servicios,1,145969,145969,Oriente,Distribuidor,Juan Mora
+2026-01-07,Cliente 029,Capacitación Comercial,Servicios,1,109255,109255,Sur,Tienda,Juan Mora
+2026-01-07,Cliente 021,Licencia CRM Pro,Software,2,238359,476718,Sur,Directo,Diego Núñez
+2026-01-08,Cliente 003,App Móvil para Ventas,Software,1,308303,308303,Sur,Directo,Sofía Vega
+2026-01-10,Cliente 007,Migración de Datos,Servicios,2,220080,440160,Oriente,Directo,Carla Ríos
+2026-01-12,Cliente 018,Capacitación Comercial,Servicios,2,120839,241678,Norte,Directo,Diego Núñez
+2026-01-12,Cliente 032,Plan de Fidelización,Servicios,2,78558,157116,Oriente,Online,Sofía Vega
+2026-01-13,Cliente 012,Consultoría de Procesos,Servicios,1,322983,322983,Sur,Directo,Juan Mora
+2026-01-23,Cliente 008,Migración de Datos,Servicios,2,227644,455288,Occidente,Online,Sofía Vega
+2026-01-25,Cliente 013,Plan de Fidelización,Servicios,3,72339,217017,Norte,Online,Sofía Vega
+2026-01-29,Cliente 015,Licencia CRM Pro,Software,2,240266,480532,Centro,Tienda,Ana Torres
+2026-02-01,Cliente 015,Licencia CRM Pro,Software,2,252255,504510,Centro,Tienda,Ana Torres
+2026-02-03,Cliente 013,Reportes Automatizados,Software,3,85426,256278,Norte,Online,Sofía Vega
+2026-02-04,Cliente 012,Integración ERP,Servicios,3,573878,1721634,Sur,Directo,Juan Mora
+2026-02-04,Cliente 002,Consultoría de Procesos,Servicios,2,357622,715244,Occidente,Tienda,Sofía Vega
+2026-02-05,Cliente 013,Plan de Fidelización,Servicios,1,72185,72185,Norte,Online,Sofía Vega
+2026-02-10,Cliente 029,Módulo de Analítica,Software,3,156824,470472,Sur,Tienda,Juan Mora
+2026-02-10,Cliente 008,Migración de Datos,Servicios,3,215591,646773,Occidente,Online,Sofía Vega
+2026-02-13,Cliente 014,Módulo de Analítica,Software,1,175365,175365,Sur,Distribuidor,Carla Ríos
+2026-02-15,Cliente 026,Capacitación Comercial,Servicios,1,119236,119236,Occidente,Online,Ana Torres
+2026-02-15,Cliente 029,Capacitación Comercial,Servicios,1,103317,103317,Sur,Tienda,Juan Mora
+2026-02-16,Cliente 030,App Móvil para Ventas,Software,2,311363,622726,Sur,Distribuidor,Carla Ríos
+2026-02-17,Cliente 017,Plan de Fidelización,Servicios,2,75402,150804,Oriente,Distribuidor,Juan Mora
+2026-02-20,Cliente 030,Integración ERP,Servicios,1,570328,570328,Sur,Distribuidor,Carla Ríos
+2026-02-20,Cliente 023,Migración de Datos,Servicios,2,187912,375824,Oriente,Tienda,Carla Ríos
+2026-02-21,Cliente 012,Consultoría de Procesos,Servicios,1,341799,341799,Sur,Directo,Juan Mora
+2026-02-22,Cliente 008,Plan de Fidelización,Servicios,2,71402,142804,Occidente,Online,Sofía Vega
+2026-02-22,Cliente 020,Soporte Premium (anual),Servicios,3,139045,417135,Occidente,Distribuidor,Luis Pérez
+2026-02-22,Cliente 012,Integración ERP,Servicios,2,566789,1133578,Sur,Directo,Juan Mora
+2026-02-24,Cliente 008,Plan de Fidelización,Servicios,2,73192,146384,Occidente,Online,Sofía Vega
+2026-02-27,Cliente 028,Licencia CRM Pro,Software,2,242852,485704,Centro,Directo,Diego Núñez
+2026-02-27,Cliente 023,Migración de Datos,Servicios,2,201353,402706,Oriente,Tienda,Carla Ríos
+2026-02-27,Cliente 013,Reportes Automatizados,Software,1,89240,89240,Norte,Online,Sofía Vega
+2026-02-28,Cliente 002,Migración de Datos,Servicios,2,211607,423214,Occidente,Tienda,Sofía Vega
+2026-03-01,Cliente 026,Licencia CRM Pro,Software,2,258078,516156,Occidente,Online,Ana Torres
+2026-03-01,Cliente 018,Plan de Fidelización,Servicios,1,71424,71424,Norte,Directo,Diego Núñez
+2026-03-01,Cliente 004,Migración de Datos,Servicios,1,224611,224611,Centro,Online,Sofía Vega
+2026-03-04,Cliente 002,Módulo de Analítica,Software,1,183350,183350,Occidente,Tienda,Sofía Vega
+2026-03-05,Cliente 027,Licencia CRM Pro,Software,1,232146,232146,Occidente,Online,Sofía Vega
+2026-03-05,Cliente 003,Consultoría de Procesos,Servicios,1,332690,332690,Sur,Directo,Sofía Vega
+2026-03-05,Cliente 004,Integración ERP,Servicios,1,606979,606979,Centro,Online,Sofía Vega
+2026-03-09,Cliente 015,App Móvil para Ventas,Software,2,289882,579764,Centro,Tienda,Ana Torres
+2026-03-11,Cliente 014,Módulo de Analítica,Software,2,187747,375494,Sur,Distribuidor,Carla Ríos
+2026-03-13,Cliente 012,Integración ERP,Servicios,2,538227,1076454,Sur,Directo,Juan Mora
+2026-03-14,Cliente 021,Licencia CRM Pro,Software,1,234110,234110,Sur,Directo,Diego Núñez
+2026-03-15,Cliente 011,Integración ERP,Servicios,1,592362,592362,Norte,Distribuidor,Sofía Vega
+2026-03-17,Cliente 007,Módulo de Analítica,Software,1,173085,173085,Oriente,Directo,Carla Ríos
+2026-03-21,Cliente 009,App Móvil para Ventas,Software,2,310560,621120,Sur,Online,Carla Ríos
+2026-03-23,Cliente 027,Licencia CRM Pro,Software,2,236089,472178,Occidente,Online,Sofía Vega
+2026-03-23,Cliente 023,Consultoría de Procesos,Servicios,2,312138,624276,Oriente,Tienda,Carla Ríos
+2026-03-24,Cliente 018,Plan de Fidelización,Servicios,2,74079,148158,Norte,Directo,Diego Núñez
+2026-03-25,Cliente 018,Capacitación Comercial,Servicios,2,118736,237472,Norte,Directo,Diego Núñez
+2026-03-28,Cliente 022,Plan de Fidelización,Servicios,2,75236,150472,Occidente,Tienda,Diego Núñez
+2026-03-30,Cliente 027,Migración de Datos,Servicios,1,202485,202485,Occidente,Online,Sofía Vega
+2026-03-30,Cliente 025,Soporte Premium (anual),Servicios,1,151795,151795,Occidente,Online,Diego Núñez
+2026-03-31,Cliente 022,Consultoría de Procesos,Servicios,1,358737,358737,Occidente,Tienda,Diego Núñez
+2026-04-08,Cliente 025,Capacitación Comercial,Servicios,1,121961,121961,Occidente,Online,Diego Núñez
+2026-04-10,Cliente 030,App Móvil para Ventas,Software,1,308247,308247,Sur,Distribuidor,Carla Ríos
+2026-04-11,Cliente 022,Licencia CRM Pro,Software,2,255963,511926,Occidente,Tienda,Diego Núñez
+2026-04-13,Cliente 025,Migración de Datos,Servicios,1,226396,226396,Occidente,Online,Diego Núñez
+2026-04-16,Cliente 027,Consultoría de Procesos,Servicios,3,319568,958704,Occidente,Online,Sofía Vega
+2026-04-18,Cliente 010,Reportes Automatizados,Software,1,92353,92353,Oriente,Distribuidor,Sofía Vega
+2026-04-19,Cliente 008,Soporte Premium (anual),Servicios,1,147829,147829,Occidente,Online,Sofía Vega
+2026-04-19,Cliente 015,Plan de Fidelización,Servicios,2,74658,149316,Centro,Tienda,Ana Torres
+2026-04-20,Cliente 020,Consultoría de Procesos,Servicios,1,329334,329334,Occidente,Distribuidor,Luis Pérez
+2026-04-23,Cliente 017,Plan de Fidelización,Servicios,1,78626,78626,Oriente,Distribuidor,Juan Mora
+2026-04-30,Cliente 029,Integración ERP,Servicios,1,506779,506779,Sur,Tienda,Juan Mora
+2026-04-30,Cliente 015,Reportes Automatizados,Software,2,88754,177508,Centro,Tienda,Ana Torres
+2026-05-04,Cliente 009,Módulo de Analítica,Software,1,179979,179979,Sur,Online,Carla Ríos
+2026-05-05,Cliente 020,Reportes Automatizados,Software,3,89310,267930,Occidente,Distribuidor,Luis Pérez
+2026-05-08,Cliente 030,App Móvil para Ventas,Software,1,310669,310669,Sur,Distribuidor,Carla Ríos
+2026-05-09,Cliente 010,Reportes Automatizados,Software,2,93301,186602,Oriente,Distribuidor,Sofía Vega
+2026-05-10,Cliente 008,Migración de Datos,Servicios,1,211465,211465,Occidente,Online,Sofía Vega
+2026-05-11,Cliente 020,Soporte Premium (anual),Servicios,1,151206,151206,Occidente,Distribuidor,Luis Pérez
+2026-05-14,Cliente 020,Consultoría de Procesos,Servicios,2,329441,658882,Occidente,Distribuidor,Luis Pérez
+2026-05-16,Cliente 007,Migración de Datos,Servicios,1,216351,216351,Oriente,Directo,Carla Ríos
+2026-05-28,Cliente 018,Plan de Fidelización,Servicios,1,75763,75763,Norte,Directo,Diego Núñez
+2026-05-31,Cliente 015,Capacitación Comercial,Servicios,2,121209,242418,Centro,Tienda,Ana Torres
+2026-06-03,Cliente 001,Consultoría de Procesos,Servicios,1,353486,353486,Sur,Tienda,Sofía Vega
+2026-06-03,Cliente 026,Licencia CRM Pro,Software,2,243936,487872,Occidente,Online,Ana Torres
+2026-06-03,Cliente 018,Plan de Fidelización,Servicios,1,74206,74206,Norte,Directo,Diego Núñez
+2026-06-08,Cliente 016,Licencia CRM Pro,Software,2,254827,509654,Centro,Tienda,Luis Pérez
+2026-06-11,Cliente 022,Consultoría de Procesos,Servicios,2,364248,728496,Occidente,Tienda,Diego Núñez
+2026-06-12,Cliente 023,Migración de Datos,Servicios,2,201026,402052,Oriente,Tienda,Carla Ríos
+2026-06-13,Cliente 029,Capacitación Comercial,Servicios,3,109089,327267,Sur,Tienda,Juan Mora
+2026-06-14,Cliente 026,Plan de Fidelización,Servicios,1,74209,74209,Occidente,Online,Ana Torres
+2026-06-14,Cliente 020,Consultoría de Procesos,Servicios,2,335732,671464,Occidente,Distribuidor,Luis Pérez
+2026-06-18,Cliente 002,Migración de Datos,Servicios,1,218731,218731,Occidente,Tienda,Sofía Vega
+2026-06-21,Cliente 029,Capacitación Comercial,Servicios,2,105956,211912,Sur,Tienda,Juan Mora
+2026-06-27,Cliente 025,Soporte Premium (anual),Servicios,1,150783,150783,Occidente,Online,Diego Núñez
+2026-07-02,Cliente 013,Plan de Fidelización,Servicios,1,67905,67905,Norte,Online,Sofía Vega
+2026-07-09,Cliente 029,Capacitación Comercial,Servicios,3,104164,312492,Sur,Tienda,Juan Mora
+2026-07-14,Cliente 012,Integración ERP,Servicios,3,576752,1730256,Sur,Directo,Juan Mora
+2026-07-16,Cliente 030,Integración ERP,Servicios,1,628929,628929,Sur,Distribuidor,Carla Ríos
+2026-07-17,Cliente 026,Plan de Fidelización,Servicios,2,74009,148018,Occidente,Online,Ana Torres
+2026-07-19,Cliente 027,Migración de Datos,Servicios,2,198844,397688,Occidente,Online,Sofía Vega
+2026-07-19,Cliente 006,Soporte Premium (anual),Servicios,2,154311,308622,Oriente,Directo,Ana Torres
+2026-07-25,Cliente 001,Módulo de Analítica,Software,2,182842,365684,Sur,Tienda,Sofía Vega
+2026-07-25,Cliente 010,Integración ERP,Servicios,2,609246,1218492,Oriente,Distribuidor,Sofía Vega
+2026-07-27,Cliente 023,Migración de Datos,Servicios,3,195175,585525,Oriente,Tienda,Carla Ríos
+2026-07-28,Cliente 004,Integración ERP,Servicios,2,608185,1216370,Centro,Online,Sofía Vega
+2026-07-30,Cliente 030,Integración ERP,Servicios,1,618658,618658,Sur,Distribuidor,Carla Ríos
+2026-08-11,Cliente 028,Licencia CRM Pro,Software,1,246434,246434,Centro,Directo,Diego Núñez
+2026-08-14,Cliente 007,Módulo de Analítica,Software,2,177701,355402,Oriente,Directo,Carla Ríos
+2026-08-17,Cliente 029,Soporte Premium (anual),Servicios,1,133621,133621,Sur,Tienda,Juan Mora
+2026-08-17,Cliente 002,Módulo de Analítica,Software,1,186826,186826,Occidente,Tienda,Sofía Vega
+2026-08-18,Cliente 030,App Móvil para Ventas,Software,1,297529,297529,Sur,Distribuidor,Carla Ríos
+2026-08-18,Cliente 029,Módulo de Analítica,Software,2,154941,309882,Sur,Tienda,Juan Mora
+2026-08-22,Cliente 022,Consultoría de Procesos,Servicios,1,336903,336903,Occidente,Tienda,Diego Núñez
+2026-08-24,Cliente 010,Plan de Fidelización,Servicios,1,71557,71557,Oriente,Distribuidor,Sofía Vega
+2026-08-24,Cliente 017,Reportes Automatizados,Software,1,86347,86347,Oriente,Distribuidor,Juan Mora
+2026-08-26,Cliente 010,Reportes Automatizados,Software,2,88618,177236,Oriente,Distribuidor,Sofía Vega
+2026-09-01,Cliente 020,Reportes Automatizados,Software,3,85349,256047,Occidente,Distribuidor,Luis Pérez
+2026-09-03,Cliente 001,Soporte Premium (anual),Servicios,1,155975,155975,Sur,Tienda,Sofía Vega
+2026-09-05,Cliente 017,Plan de Fidelización,Servicios,1,78462,78462,Oriente,Distribuidor,Juan Mora
+2026-09-05,Cliente 029,Módulo de Analítica,Software,2,160854,321708,Sur,Tienda,Juan Mora
+2026-09-05,Cliente 020,Soporte Premium (anual),Servicios,3,139314,417942,Occidente,Distribuidor,Luis Pérez
+2026-09-05,Cliente 016,Módulo de Analítica,Software,1,188876,188876,Centro,Tienda,Luis Pérez
+2026-09-10,Cliente 013,Plan de Fidelización,Servicios,2,69690,139380,Norte,Online,Sofía Vega
+2026-09-10,Cliente 009,App Móvil para Ventas,Software,1,295166,295166,Sur,Online,Carla Ríos
+2026-09-10,Cliente 011,App Móvil para Ventas,Software,1,292036,292036,Norte,Distribuidor,Sofía Vega
+2026-09-10,Cliente 010,Reportes Automatizados,Software,2,94301,188602,Oriente,Distribuidor,Sofía Vega
+2026-09-10,Cliente 018,Plan de Fidelización,Servicios,2,73077,146154,Norte,Directo,Diego Núñez
+2026-09-10,Cliente 020,Soporte Premium (anual),Servicios,2,140600,281200,Occidente,Distribuidor,Luis Pérez
